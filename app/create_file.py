@@ -19,7 +19,7 @@ def redactor(file_name: str) -> None:
             count += 1
 
 
-def make_directory(path:str) -> None:
+def make_directory(path: str) -> None:
     os.makedirs(path)
 
 
