@@ -29,7 +29,7 @@ if "-d" in term_argv and "-f" in term_argv:
     path = os.path.join(*directories)
     make_directory(path)
     file_name = term_argv[-1]
-    redactor(os.path.join(path,file_name))
+    redactor(os.path.join(path, file_name))
 
 elif "-d" in term_argv:
     make_directory("/".join(term_argv[2:]))
